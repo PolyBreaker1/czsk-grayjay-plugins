@@ -1,0 +1,17 @@
+{
+  "name": "SkTOnline",
+  "description": "online.sktorrent.eu — online streamy (h264 MP4) z ponuky sktorrent.eu.",
+  "author": "czsk-addons",
+  "authorUrl": "https://online.sktorrent.eu",
+  "repositoryUrl": "https://online.sktorrent.eu",
+  "supportUrl": "https://online.sktorrent.eu",
+  "version": 5,
+  "id": "95f08c53-4f92-46c5-b1ff-9b9bb718ebf0",
+  "sourceUrl": "https://online.sktorrent.eu",
+  "platformUrl": "https://online.sktorrent.eu",
+  "scriptUrl": "./script.js",
+  "iconUrl": "./icon.png",
+  "packages": ["Http", "HttpImp"],
+  "allowEval": false,
+  "allowUrls": ["sktorrent.eu", ".sktorrent.eu", "online.sktorrent.eu", "online24.sktorrent.eu"]
+}

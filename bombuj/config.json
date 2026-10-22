@@ -1,0 +1,22 @@
+{
+  "name": "Bombuj.si",
+  "description": "Bombuj.si / Serialy.bombuj.si — filmy a seriály; streamtape/mixdrop → priame MP4.",
+  "author": "czsk-addons",
+  "authorUrl": "https://www.bombuj.si",
+  "repositoryUrl": "https://www.bombuj.si",
+  "supportUrl": "https://www.bombuj.si",
+  "version": 2,
+  "id": "c0978fb0-e021-4e8d-9022-01edcd72fd59",
+  "sourceUrl": "https://www.bombuj.si",
+  "platformUrl": "https://www.bombuj.si",
+  "scriptUrl": "./script.js",
+  "iconUrl": "./icon.png",
+  "packages": ["Http"],
+  "allowEval": false,
+  "allowUrls": [
+    "bombuj.si", ".bombuj.si", "www.bombuj.si", "serialy.bombuj.si",
+    "streamtape.com", ".streamtape.com", "tapecontent.net", ".tapecontent.net",
+    "mixdrop.co", ".mixdrop.co", "mixdrop.ag", ".mixdrop.ag",
+    "mxdrop.click", ".mxdrop.click", "mxcontent.net", ".mxcontent.net"
+  ]
+}

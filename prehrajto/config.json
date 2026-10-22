@@ -1,0 +1,24 @@
+{
+  "name": "Prehraj.to",
+  "description": "Prehraj.to — česká a slovenská videa (priame MP4 streamy z premiumcdn).",
+  "author": "czsk-addons",
+  "authorUrl": "https://prehrajto.cz",
+  "repositoryUrl": "https://prehrajto.cz",
+  "supportUrl": "https://prehrajto.cz",
+  "version": 4,
+  "id": "9e0ed463-8a2e-4fab-a1c6-1157d076cd00",
+  "sourceUrl": "https://prehrajto.cz",
+  "platformUrl": "https://prehrajto.cz",
+  "scriptUrl": "./script.js",
+  "iconUrl": "./icon.png",
+  "packages": [
+    "Http"
+  ],
+  "allowEval": false,
+  "allowUrls": [
+    "prehrajto.cz",
+    ".prehrajto.cz",
+    "premiumcdn.net",
+    ".premiumcdn.net"
+  ]
+}
