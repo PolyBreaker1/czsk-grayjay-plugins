@@ -1,20 +1,20 @@
-# CZ/SK Grayjay plugins
+# CZ/SK pluginy pre Grayjay
 
-Three Grayjay sources for Czech/Slovak content. Everything runs inside Grayjay —
-no local server, no extra software.
+Tri zdroje pre Grayjay. Všetko beží priamo v Grayjay — bez lokálneho servera,
+bez Pythonu a bez akýchkoľvek ďalších programov.
 
-| Plugin | Source |
+| Plugin | Zdroj |
 |---|---|
 | SkTOnline | online.sktorrent.eu |
 | Bombuj.si | bombuj.si / serialy.bombuj.si |
 | Prehraj.to | prehraj.to |
 
-## Install on Windows (or any Grayjay desktop)
+## Inštalácia (Windows alebo iný Grayjay desktop)
 
-1. Install **Grayjay** from the official site: <https://grayjay.app>
-   (Desktop build → Windows installer.)
-2. Open Grayjay → **Sources** (plugins) → **Add source / Install from URL**.
-3. Paste one URL per plugin and confirm the "unsigned plugin" prompt:
+1. Nainštalujte **Grayjay** z oficiálnej stránky: <https://grayjay.app>
+   (Desktop → inštalátor pre Windows.)
+2. Otvorte Grayjay → **Zdroje** (pluginy) → **Pridať zdroj / Inštalovať z URL**.
+3. Vložte vždy jednu adresu a potvrďte upozornenie na nepodpísaný plugin:
 
 ```
 https://polybreaker1.github.io/czsk-grayjay-plugins/sktorrent/config.json
@@ -22,18 +22,21 @@ https://polybreaker1.github.io/czsk-grayjay-plugins/bombuj/config.json
 https://polybreaker1.github.io/czsk-grayjay-plugins/prehrajto/config.json
 ```
 
-4. Use the search box in Grayjay; results from all three sources appear together.
+4. Hľadajte priamo v Grayjay — výsledky zo všetkých troch zdrojov sa zobrazia spolu.
 
-## Notes
+## Poznámky
 
-- No account, login or configuration is required for any of the three.
-- Bombuj resolves **streamtape** and **mixdrop** players to direct MP4
-  (most titles have at least one). Other players (voe, filemoon) are not
-  resolved yet.
-- SkTOnline plays h264 MP4 from online.sktorrent.eu.
-- Prehraj.to plays direct MP4 from premiumcdn.
+- Ani jeden plugin nevyžaduje účet, prihlásenie ani nastavenie.
+- **Bombuj** prehráva prehrávače **streamtape** a **mixdrop** ako priame MP4
+  (väčšina titulov má aspoň jeden z nich). Prehrávače voe a filemoon zatiaľ
+  nie sú podporované.
+- **SkTOnline** prehráva h264 MP4 z online.sktorrent.eu.
+- **Prehraj.to** prehráva priame MP4 z premiumcdn. Pozor: k 23. 10. 2026 stránka
+  vracia prázdne výsledky hľadania pre neprihlásených používateľov, takže plugin
+  momentálne nič nenájde. Plugin je v poriadku — obnoví sa, keď stránka opäť
+  sprístupní verejné hľadanie.
 
-## Updating
+## Aktualizácia
 
-Re-run step 2–3 with the same URL after a `version` bump in `config.json`;
-Grayjay replaces the installed copy.
+Po zvýšení čísla `version` v `config.json` znova vložte rovnakú adresu (krok 2–3);
+Grayjay nainštalovanú kópiu nahradí.
